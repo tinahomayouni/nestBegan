@@ -1,7 +1,7 @@
 import { Controller, Get, Query } from '@nestjs/common';
 import { AppService } from './services/app.service';
 
-@Controller('tempConvertor') // Change the route to '/tempConvertor'
+@Controller('tempConvertor')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
