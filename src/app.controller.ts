@@ -16,6 +16,6 @@ export class AppController {
       fahrenheit,
       constNumValue, // Pass the result of getConstNum
     );
-    return `Celsius Temperature: <b>${celsiusTemp}</b>°C`;
+    return `Celsius Temperature: <b>${celsiusTemp}</b>°C`; //works on http://localhost:3000/tempConvertor?fahrenheit=40
   }
 }
