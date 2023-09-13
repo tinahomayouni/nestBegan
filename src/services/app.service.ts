@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { TemperatureUtilsDao } from '../dao/temperature-utils.dao';
-import { TemperatureDto } from 'src/dtos/response/temperature.request.dto';
+import { TemperatureDto } from 'src/dtos/response/temperature.response.dto';
 
 export enum types {
   fahrenheit = 'fahrenheit',

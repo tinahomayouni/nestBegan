@@ -1,6 +1,6 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { AppService } from './services/app.service';
-import { TemperatureDto } from './dtos/response/temperature.request.dto';
+import { TemperatureDto } from './dtos/response/temperature.response.dto';
 import { TemperatureRequestParams } from './dtos/request/temperature.request.dto';
 
 @Controller('')
