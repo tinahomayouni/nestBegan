@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './services/app.service';
-import { ConstNum } from './services/constNum.dao';
+import { TemperatureUtilsDao } from './dao/temperature-utils.dao';
 
 @Module({
   controllers: [AppController],
-  providers: [AppService, ConstNum],
+  providers: [AppService, TemperatureUtilsDao],
 })
 export class AppModule {}
